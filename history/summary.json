@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Etoile Website",
+    "url": "https://etoile.events",
+    "icon": "https://icons.duckduckgo.com/ip3/etoile.events.ico",
+    "slug": "etoile-website",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 406,
+    "timeDay": 406,
+    "timeWeek": 406,
+    "timeMonth": 406,
+    "timeYear": 406,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Etoile API",
+    "url": "https://etoile-api.fly.dev/health",
+    "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
+    "slug": "etoile-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 403,
+    "timeDay": 403,
+    "timeWeek": 403,
+    "timeMonth": 403,
+    "timeYear": 403,
+    "dailyMinutesDown": {}
+  }
+]
