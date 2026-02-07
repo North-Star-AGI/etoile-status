@@ -1,0 +1,70 @@
+name: Create Incident
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "Incident title"
+        required: true
+        type: string
+      description:
+        description: "Incident description"
+        required: true
+        type: string
+      severity:
+        description: "Severity level"
+        required: true
+        type: choice
+        options:
+          - degraded
+          - down
+          - maintenance
+      affected_service:
+        description: "Affected service"
+        required: true
+        type: choice
+        options:
+          - Etoile Website
+          - Etoile API
+          - All Services
+
+jobs:
+  create-incident:
+    name: Create ${{ inputs.severity }} incident
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create incident issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const labels = ['status'];
+            if ('${{ inputs.severity }}' === 'maintenance') {
+              labels.push('maintenance');
+            }
+
+            const severityEmoji = {
+              degraded: '🟡',
+              down: '🔴',
+              maintenance: '🔧',
+            }['${{ inputs.severity }}'];
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${severityEmoji} ${{ inputs.title }}`,
+              body: [
+                `## ${severityEmoji} ${{ inputs.severity === 'maintenance' ? 'Scheduled Maintenance' : 'Incident Report' }}`,
+                '',
+                `**Severity:** ${{ inputs.severity }}`,
+                `**Affected service:** ${{ inputs.affected_service }}`,
+                '',
+                '${{ inputs.description }}',
+                '',
+                '---',
+                `Reported by: @${{ github.actor }}`,
+              ].join('\n'),
+              labels,
+              assignees: ['seifeldinismail'],
+            });

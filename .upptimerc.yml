@@ -15,6 +15,30 @@ sites:
     expectedStatusCodes:
       - 200
 
+  - name: Etoile API (Server)
+    url: https://etoile-api.fly.dev/
+    maxResponseTime: 3000
+    expectedStatusCodes:
+      - 200
+
+  - name: Etoile Events API
+    url: https://etoile-api.fly.dev/api/v1/events?limit=1
+    maxResponseTime: 5000
+    expectedStatusCodes:
+      - 200
+
+  - name: Etoile Embed API
+    url: https://etoile-api.fly.dev/api/v1/embed/events?limit=1
+    maxResponseTime: 5000
+    expectedStatusCodes:
+      - 200
+
+  - name: Etoile Search
+    url: https://etoile-api.fly.dev/api/v1/search?q=test
+    maxResponseTime: 5000
+    expectedStatusCodes:
+      - 200
+
 assignees:
   - seifeldinismail
 
@@ -201,5 +225,5 @@ workflowSchedule:
   uptime: "*/5 * * * *"
   responseTime: "*/5 * * * *"
   updates: "0 0 * * *"
-  graphs: "0 0 * * *"
-  staticSite: "0 0 * * *"
+  graphs: "0 */6 * * *"
+  staticSite: "0 */6 * * *"
