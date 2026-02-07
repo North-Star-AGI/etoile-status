@@ -1,12 +1,17 @@
 <p align="center">
   <a href="https://etoile.events">
-    <img src="https://etoile.events/etoile.png" height="64" alt="Etoile">
+    <picture>
+      <img src="./assets/banner.svg" alt="Etoile Status" width="800">
+    </picture>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://north-star-agi.github.io/etoile-status"><img alt="Website Uptime" src="https://img.shields.io/endpoint?style=flat-square&label=website&url=https%3A%2F%2Fraw.githubusercontent.com%2FNorth-Star-AGI%2Fetoile-status%2FHEAD%2Fapi%2Fetoile-website%2Fuptime.json"></a>
-  <a href="https://north-star-agi.github.io/etoile-status"><img alt="API Uptime" src="https://img.shields.io/endpoint?style=flat-square&label=api&url=https%3A%2F%2Fraw.githubusercontent.com%2FNorth-Star-AGI%2Fetoile-status%2FHEAD%2Fapi%2Fetoile-api%2Fuptime.json"></a>
+  <a href="https://north-star-agi.github.io/etoile-status"><img alt="Website Uptime" src="https://img.shields.io/endpoint?style=for-the-badge&labelColor=1a1a1a&color=272727&label=website&url=https%3A%2F%2Fraw.githubusercontent.com%2FNorth-Star-AGI%2Fetoile-status%2FHEAD%2Fapi%2Fetoile-website%2Fuptime.json"></a>
+  <a href="https://north-star-agi.github.io/etoile-status"><img alt="API Uptime" src="https://img.shields.io/endpoint?style=for-the-badge&labelColor=1a1a1a&color=272727&label=api&url=https%3A%2F%2Fraw.githubusercontent.com%2FNorth-Star-AGI%2Fetoile-status%2FHEAD%2Fapi%2Fetoile-api%2Fuptime.json"></a>
+</p>
+
+<p align="center">
   <!--live status--> **🟩 All systems operational**
 </p>
 
@@ -25,4 +30,6 @@
 
 ---
 
-<sub>Powered by [Upptime](https://github.com/upptime/upptime)</sub>
+<p align="center">
+  <a href="https://etoile.events">etoile.events</a> · Powered by <a href="https://github.com/upptime/upptime">Upptime</a>
+</p>
