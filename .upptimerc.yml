@@ -1,0 +1,39 @@
+owner: North-Star-AGI
+repo: etoile-status
+user-agent: North-Star-AGI
+
+sites:
+  - name: Etoile Website
+    url: https://etoile.events
+    maxResponseTime: 5000
+    expectedStatusCodes:
+      - 200
+
+  - name: Etoile API
+    url: https://etoile-api.fly.dev/health
+    maxResponseTime: 3000
+    expectedStatusCodes:
+      - 200
+
+assignees:
+  - seifeldinismail
+
+status-website:
+  baseUrl: /etoile-status
+  logoUrl: https://etoile.events/etoile.png
+  name: Etoile Status
+  introTitle: "**Etoile** Service Status"
+  introMessage: >
+    Real-time status for Etoile services.
+    [Visit Etoile](https://etoile.events)
+  navbar:
+    - title: Etoile
+      href: https://etoile.events
+  theme: dark
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  updates: "0 0 * * *"
+  graphs: "0 0 * * *"
+  staticSite: "0 0 * * *"
