@@ -25,8 +25,4 @@
 
 ---
 
-### Incidents
-
-When a service goes down, an [issue](https://github.com/North-Star-AGI/etoile-status/issues) is automatically created and closed upon recovery.
-
 <sub>Powered by [Upptime](https://github.com/upptime/upptime)</sub>
