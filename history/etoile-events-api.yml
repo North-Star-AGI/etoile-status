@@ -1,7 +1,7 @@
 url: https://etoile-api.fly.dev/api/v1/events?limit=1
 status: up
 code: 200
-responseTime: 607
-lastUpdated: 2026-02-16T22:43:05.631Z
+responseTime: 564
+lastUpdated: 2026-02-16T23:14:43.469Z
 startTime: 2026-02-07T16:04:04.367Z
 generator: Upptime <https://github.com/upptime/upptime>
