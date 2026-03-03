@@ -75,7 +75,7 @@
     "timeMonth": 672,
     "timeYear": 672,
     "dailyMinutesDown": {
-      "2026-03-03": 1396,
+      "2026-03-03": 1398,
       "2026-03-02": 1440,
       "2026-03-01": 1440,
       "2026-02-28": 1440,
@@ -99,19 +99,19 @@
     "url": "https://etoile-api.fly.dev/api/v1/embed/events?limit=1",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-embed-api",
-    "status": "down",
+    "status": "up",
     "uptime": "99.80%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.80%",
     "time": 522,
-    "timeDay": 541,
+    "timeDay": 539,
     "timeWeek": 512,
     "timeMonth": 522,
     "timeYear": 522,
     "dailyMinutesDown": {
-      "2026-03-03": 1,
+      "2026-03-03": 2,
       "2026-02-08": 68
     }
   },
