@@ -1,7 +1,7 @@
 url: https://etoile-api.fly.dev/api/v1/search?q=test
 status: up
 code: 200
-responseTime: 381
-lastUpdated: 2026-05-11T08:00:12.638Z
+responseTime: 418
+lastUpdated: 2026-05-11T11:33:19.506Z
 startTime: 2026-02-07T16:04:06.200Z
 generator: Upptime <https://github.com/upptime/upptime>
