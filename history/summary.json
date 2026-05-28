@@ -4,16 +4,16 @@
     "url": "https://etoile.events",
     "icon": "https://icons.duckduckgo.com/ip3/etoile.events.ico",
     "slug": "etoile-website",
-    "status": "down",
-    "uptime": "95.93%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "87.01%",
-    "uptimeYear": "95.93%",
+    "status": "up",
+    "uptime": "95.90%",
+    "uptimeDay": "96.69%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "86.91%",
+    "uptimeYear": "95.90%",
     "time": 630,
-    "timeDay": 485,
-    "timeWeek": 535,
-    "timeMonth": 504,
+    "timeDay": 513,
+    "timeWeek": 538,
+    "timeMonth": 503,
     "timeYear": 630,
     "dailyMinutesDown": {
       "2026-03-02": 506,
@@ -24,7 +24,7 @@
       "2026-05-04": 1440,
       "2026-05-03": 1440,
       "2026-05-02": 1082,
-      "2026-05-28": 2
+      "2026-05-28": 48
     }
   },
   {
@@ -32,16 +32,16 @@
     "url": "https://etoile-api.fly.dev/health",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-api",
-    "status": "down",
-    "uptime": "86.38%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "86.38%",
+    "status": "up",
+    "uptime": "86.35%",
+    "uptimeDay": "96.74%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "86.35%",
     "time": 623,
-    "timeDay": 338,
-    "timeWeek": 386,
-    "timeMonth": 430,
+    "timeDay": 331,
+    "timeWeek": 385,
+    "timeMonth": 429,
     "timeYear": 623,
     "dailyMinutesDown": {
       "2026-02-08": 25,
@@ -68,7 +68,7 @@
       "2026-04-05": 50,
       "2026-04-06": 55,
       "2026-04-12": 154,
-      "2026-05-28": 2
+      "2026-05-28": 47
     }
   },
   {
@@ -76,21 +76,21 @@
     "url": "https://etoile-api.fly.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-api-server",
-    "status": "down",
-    "uptime": "99.92%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.92%",
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "96.79%",
+    "uptimeWeek": "99.54%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
     "time": 160,
-    "timeDay": 171,
+    "timeDay": 170,
     "timeWeek": 171,
     "timeMonth": 181,
     "timeYear": 160,
     "dailyMinutesDown": {
       "2026-03-23": 33,
       "2026-04-12": 97,
-      "2026-05-28": 1
+      "2026-05-28": 46
     }
   },
   {
@@ -98,15 +98,15 @@
     "url": "https://etoile-api.fly.dev/api/v1/events?limit=1",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-events-api",
-    "status": "down",
-    "uptime": "85.26%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "85.26%",
+    "status": "up",
+    "uptime": "85.24%",
+    "uptimeDay": "96.80%",
+    "uptimeWeek": "99.54%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "85.24%",
     "time": 624,
-    "timeDay": 549,
-    "timeWeek": 577,
+    "timeDay": 557,
+    "timeWeek": 578,
     "timeMonth": 571,
     "timeYear": 624,
     "dailyMinutesDown": {
@@ -134,7 +134,7 @@
       "2026-03-20": 71,
       "2026-03-23": 31,
       "2026-04-12": 96,
-      "2026-05-28": 1
+      "2026-05-28": 46
     }
   },
   {
@@ -142,15 +142,15 @@
     "url": "https://etoile-api.fly.dev/api/v1/embed/events?limit=1",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-embed-api",
-    "status": "down",
-    "uptime": "99.54%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.54%",
+    "status": "up",
+    "uptime": "99.51%",
+    "uptimeDay": "96.82%",
+    "uptimeWeek": "99.55%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.51%",
     "time": 505,
-    "timeDay": 521,
-    "timeWeek": 548,
+    "timeDay": 535,
+    "timeWeek": 550,
     "timeMonth": 536,
     "timeYear": 505,
     "dailyMinutesDown": {
@@ -163,7 +163,7 @@
       "2026-03-20": 63,
       "2026-03-23": 30,
       "2026-04-12": 94,
-      "2026-05-28": 1
+      "2026-05-28": 46
     }
   },
   {
@@ -171,15 +171,15 @@
     "url": "https://etoile-api.fly.dev/api/v1/search?q=test",
     "icon": "https://icons.duckduckgo.com/ip3/etoile-api.fly.dev.ico",
     "slug": "etoile-search",
-    "status": "down",
-    "uptime": "99.31%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.31%",
+    "status": "up",
+    "uptime": "99.28%",
+    "uptimeDay": "96.83%",
+    "uptimeWeek": "99.55%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.28%",
     "time": 448,
-    "timeDay": 420,
-    "timeWeek": 458,
+    "timeDay": 411,
+    "timeWeek": 457,
     "timeMonth": 465,
     "timeYear": 448,
     "dailyMinutesDown": {
@@ -191,7 +191,7 @@
       "2026-03-20": 319,
       "2026-03-23": 28,
       "2026-04-12": 93,
-      "2026-05-28": 1
+      "2026-05-28": 46
     }
   }
 ]
