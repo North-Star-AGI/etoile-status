@@ -4,16 +4,16 @@
     "url": "https://etoile.events",
     "icon": "https://icons.duckduckgo.com/ip3/etoile.events.ico",
     "slug": "etoile-website",
-    "status": "degraded",
-    "uptime": "97.24%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "97.24%",
+    "status": "up",
+    "uptime": "97.23%",
+    "uptimeDay": "99.41%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "97.23%",
     "time": 628,
-    "timeDay": 4063,
-    "timeWeek": 1022,
-    "timeMonth": 657,
+    "timeDay": 3852,
+    "timeWeek": 1023,
+    "timeMonth": 659,
     "timeYear": 628,
     "dailyMinutesDown": {
       "2026-03-02": 506,
@@ -24,7 +24,8 @@
       "2026-05-04": 1440,
       "2026-05-03": 1440,
       "2026-05-02": 1082,
-      "2026-05-28": 48
+      "2026-05-28": 48,
+      "2026-07-21": 8
     }
   },
   {
