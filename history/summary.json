@@ -4,15 +4,15 @@
     "url": "https://etoile.events",
     "icon": "https://icons.duckduckgo.com/ip3/etoile.events.ico",
     "slug": "etoile-website",
-    "status": "degraded",
-    "uptime": "97.84%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "97.84%",
+    "status": "up",
+    "uptime": "97.83%",
+    "uptimeDay": "98.78%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "97.83%",
     "time": 644,
-    "timeDay": 1096,
-    "timeWeek": 712,
+    "timeDay": 1061,
+    "timeWeek": 721,
     "timeMonth": 721,
     "timeYear": 644,
     "dailyMinutesDown": {
@@ -29,7 +29,7 @@
       "2026-08-19": 2,
       "2026-08-21": 37,
       "2026-08-23": 2,
-      "2026-09-06": 0
+      "2026-09-06": 18
     }
   },
   {
@@ -45,7 +45,7 @@
     "uptimeYear": "92.82%",
     "time": 560,
     "timeDay": 518,
-    "timeWeek": 494,
+    "timeWeek": 491,
     "timeMonth": 475,
     "timeYear": 560,
     "dailyMinutesDown": {
@@ -90,7 +90,7 @@
     "uptimeYear": "99.91%",
     "time": 178,
     "timeDay": 201,
-    "timeWeek": 221,
+    "timeWeek": 219,
     "timeMonth": 213,
     "timeYear": 178,
     "dailyMinutesDown": {
@@ -113,7 +113,7 @@
     "uptimeYear": "92.24%",
     "time": 612,
     "timeDay": 736,
-    "timeWeek": 658,
+    "timeWeek": 659,
     "timeMonth": 603,
     "timeYear": 612,
     "dailyMinutesDown": {
@@ -158,7 +158,7 @@
     "uptimeYear": "99.71%",
     "time": 533,
     "timeDay": 708,
-    "timeWeek": 615,
+    "timeWeek": 612,
     "timeMonth": 595,
     "timeYear": 533,
     "dailyMinutesDown": {
@@ -188,7 +188,7 @@
     "uptimeYear": "99.59%",
     "time": 449,
     "timeDay": 527,
-    "timeWeek": 503,
+    "timeWeek": 504,
     "timeMonth": 456,
     "timeYear": 449,
     "dailyMinutesDown": {
